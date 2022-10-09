@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Demo</title>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Personal Particular</legend>
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div>
+					<label for="password">Password:</label>
+					<input type="password" name="" id="password" />
+				</div>
+				<div>
+					<span>Gender:</span>
+					<input type="radio" name="gender" id="male" />
+					<label for="male">Male</label>
+					<input type="radio" name="gender" id="female" />
+
+					<label for="female">Female</label>
+				</div>
+				<div>
+					<span>Age:</span>
+					<select name="" id="">
+						<option value="lessThan1">&lt; 1year old</option>
+						<option value="lessThan1">&lt; 5year old</option>
+						<option value="lessThan1">&lt; 13year old</option>
+						<option value="lessThan1">&lt; 18year old</option>
+						<option value="lessThan1">Adult</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Languages</legend>
+				<div>
+					<label for="java">Java</label>
+					<input type="checkbox" name="" id="java" />
+				</div>
+				<div>
+					<label for="cplusplus">C++a</label>
+					<input type="checkbox" name="" id="cplusplus" />
+				</div>
+				<div>
+					<label for="csharp">C#</label>
+					<input type="checkbox" name="" id="csharp" />
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Instructions</legend>
+				<textarea
+					name=""
+					id=""
+					cols="30"
+					rows="10"
+					placeholder="Enter instruction here..."
+				></textarea>
+			</fieldset>
+			<button>Send</button>
+			<button>Clear</button>
+		</form>
+	</body>
+</html>
